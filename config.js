@@ -29,7 +29,7 @@ module.exports = {
   BOT_LANG: process.env.BOT_LANG || 'EN',
   START_MSG: toBool(process.env.START_MSG || 'true'),
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
-
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~GlistenEmber",
   //🛜 DEPLOY/HOSTING NAME AND API KEY
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
